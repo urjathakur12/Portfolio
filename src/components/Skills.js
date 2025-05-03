@@ -59,13 +59,9 @@ export default function Skills() {
           </p>
         </div>
 
-        {/* Tech Stack Logos Section - Side Scrolling */}
-        <div className="mt-20" data-aos="fade-up">
-          {/* <h2 className="text-3xl font-bold text-center text-white mb-10">
-            Tech Stack
-          </h2> */}
 
-          {/* Side Scrolling Container */}
+        <div className="mt-20" data-aos="fade-up">
+
           <div className="relative w-full h-[200px] overflow-hidden">
             <div className="flex w-full animate-news-scroll">
               {skillLogos.map((skill, index) => (
@@ -83,7 +79,7 @@ export default function Skills() {
                   <p className="text-sm mt-2">{skill.name}</p>
                 </div>
               ))}
-              {/* Duplicate the logos to create a continuous effect */}
+
               {skillLogos.map((skill, index) => (
                 <div
                   key={skill.name + "-duplicate"}

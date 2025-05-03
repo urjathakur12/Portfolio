@@ -102,27 +102,7 @@ export default function About() {
                   Mentored junior developers and ensured code quality through reviews and knowledge sharing.
                 </p>
               </div>
-              {/* <div
-                className="ring-2 ring-base-300 bg-base-200 rounded-2xl mt-10 p-5 shadow-xl"
-                data-aos="zoom-in"
-              >
-                <AcademicCapIcon
-                  className="h-5 w-5 mx-auto"
-                  aria-hidden="true"
-                />
-                <h2 className=" text-2xl text-center font-bold tracking-tigh">
-                  Education
-                </h2>
-                <p className="mt-3 list-item list-inside">
-                B.Tech in Electronics and Communication Engineering from IIIT-Naya Raipur (2015–2019)
-                </p>
-                <p className="mt-3 list-item list-inside">
-                  TheMellowCoder: Contributed to MERN stack project for code ideation.
-                </p>
-                <p className="mt-3 list-item list-inside">
-                  VibeVault: Co-created user-friendly shopping platform with C#.
-                </p>
-              </div> */}
+
             </div>
             <dl
               className="mt-10 space-y-8 text-base leading-7 lg:max-w-none"
